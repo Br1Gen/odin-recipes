@@ -1,5 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 * {
     font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+h2, h3 {
+    padding-left: 8%;
+}
+
+p, ul {
+    padding-left: 175px;
+}
+
+ul {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li h2 {
+    font-size: 25px;
+    padding-left: 0;
+}
+
+p {
+    padding-right: 20%;
 }
 
 li {
@@ -9,4 +42,45 @@ li {
 a {
     text-decoration: none;
     color: gray;
+}
+
+
+.ingredients {
+    height: 500px;
+    background-color: darkseagreen;
+}
+
+.ingredients.waf {
+    background-color: lightblue;
+}
+
+.ingredients.frost {
+    background-color: antiquewhite;
+}
+
+.ingredients div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.hat {
+    width: 700px;
+    opacity: 0.5;
+    margin-left: 50vw;
+}
+
+.chicken {
+    width: 700px;
+    padding-left: 200px;
+}
+
+.waffles {
+    width: 892px;
+    padding-left: 392px;
+}
+
+.frosting {
+    width: 688px;
+    padding-left: 188px;
 }
