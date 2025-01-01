@@ -5,20 +5,23 @@
 }
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-size: 40px;
     padding-left: 100px;
     padding-top: 100px;
+    margin: 30px auto;
 }
 
-h2, h3 {
-    padding-left: 8%;
-}
-
-p, ul {
+h2, 
+h3, 
+p, 
+ul {
     padding-left: 175px;
+    margin: 20px auto;
 }
 
 ul {
@@ -44,6 +47,18 @@ a {
     color: gray;
 }
 
+.index {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgIndex {
+    display: inline-block;
+    height: 100vh;
+    padding-top: 300px;
+    margin-left: 550px;
+    background-color: linen;
+}
 
 .ingredients {
     height: 500px;
@@ -63,11 +78,8 @@ a {
     vertical-align: top;
 }
 
-
-.hat {
-    width: 700px;
-    opacity: 0.5;
-    margin-left: 50vw;
+.cook {
+    width: 500px;
 }
 
 .chicken {
